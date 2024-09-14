@@ -1,12 +1,19 @@
 
 import './App.css'
+import Banner from './Componets/Banner/banner'
+import Header from './Componets/Header/Header'
+import RowList from "./Componets/Rows/RowList"
+import Footer  from'./Componets/Footer/Footer'
 
 function App() {
   
   return (
     <>
       <div>
-        <h1>Hello</h1>
+        <Header/>
+        <Banner/>
+        <RowList/>
+        <Footer/>
         
         
       </div>

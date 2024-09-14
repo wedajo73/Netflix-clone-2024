@@ -1,0 +1,52 @@
+.footer-outer-container {
+	background-color: #111;
+	color: rgb(250, 247, 247);
+    display: flex;
+      justify-content: center;
+}
+.footer-inner-container{
+    width: 60%;
+    color: #fff;
+ 
+}
+.footer-icons{
+    /* background-color: blue; */
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    color: #fff;
+}
+.footer-data{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-data ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 12vh;
+ 
+}
+.footer-data ul li{
+    cursor: pointer;
+}
+.service-code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    width: 15%;
+    padding: 10px; /* added padding */
+    margin: 10px 0;
+    cursor: pointer;
+    /* background-color: #f0f0f0;  */
+    /* optional background color for better contrast */
+    text-align: center; /* ensures the text is centered inside the div */
+    border-radius: 5px; /* optional for rounded corners */
+}
+.copy-write{
+    font-size: 12px;
+    margin-bottom:10px;
+}
